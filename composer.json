@@ -1,12 +1,19 @@
 {
     "name": "glendemon/zabbix-api",
     "description": "Zabbix API client",
+    "keywords": ["zabbix", "client", "api"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Victor Demin",
             "email": "mail@vdemin.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "GlenDemon\\ZabbixApi\\": "src/"
+        }
+    },
     "require": {
         "confirm-it-solutions/php-zabbix-api": "^2.4"
     }
