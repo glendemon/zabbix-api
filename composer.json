@@ -7,5 +7,7 @@
             "email": "mail@vdemin.com"
         }
     ],
-    "require": {}
+    "require": {
+        "confirm-it-solutions/php-zabbix-api": "^2.4"
+    }
 }
