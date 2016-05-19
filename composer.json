@@ -1,0 +1,11 @@
+{
+    "name": "glendemon/zabbix-api",
+    "description": "Zabbix API client",
+    "authors": [
+        {
+            "name": "Victor Demin",
+            "email": "mail@vdemin.com"
+        }
+    ],
+    "require": {}
+}
